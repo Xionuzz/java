@@ -21,11 +21,11 @@ public class Ejer13T4Bucles {
             
             
             if (moneda == 1) {
-            cara++;
+                cara++;
             }
             
             else
-            cruz++;
+                cruz++;
         }
         
         // Asocia los resultados a variables float para mostrar el porcentaje
