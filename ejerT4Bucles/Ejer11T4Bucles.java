@@ -23,7 +23,7 @@ public class Ejer11T4Bucles{
             resultado = resultado + numero;
             contadorMedia++;
 
-            if (numero < 0){
+            if (numero <= 0){
                 bucleSuma = false;
                 resultado = resultado - numero;
                 contadorMedia--;
