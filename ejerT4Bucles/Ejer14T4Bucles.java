@@ -27,27 +27,27 @@ public class Ejer14T4Bucles {
             dado = rnd.nextInt(6 - 1 + 1) + 1;
 
             switch (dado){
-            case 1:
-            contadorUno++;
-            break;
-            case 2:
-            contadorDos++;
-            break;
-            case 3:
-            contadorTres++;
-            break;
-            case 4:
-            contadorCuatro++;
-            break;
-            case 5:
-            contadorCinco++;
-            break;
-            case 6:
-            contadorSeis++;
-            break;
-            default:
-            System.out.println("Error");
-            break;
+                case 1:
+                contadorUno++;
+                break;
+                case 2:
+                contadorDos++;
+                break;
+                case 3:
+                contadorTres++;
+                break;
+                case 4:
+                contadorCuatro++;
+                break;
+                case 5:
+                contadorCinco++;
+                break;
+                case 6:
+                contadorSeis++;
+                break;
+                default:
+                System.out.println("Error");
+                break;
                 
             }
         }
