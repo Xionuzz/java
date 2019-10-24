@@ -10,7 +10,7 @@ public class Ejer12T4Bucles {
 	int contadorIntentos = 0;
 	boolean bucleAdivinar = true; // Controla la ejecución del bucle.
 
-        Scanner scan = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
 
 	System.out.println("////// ADIVINA EL NÚMERO //////");
 	System.out.print("Número de intentos: ");
