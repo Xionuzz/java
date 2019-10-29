@@ -20,5 +20,5 @@ public class Ejer2T4Reales {
         segundos = scan.nextDouble();
 
         System.out.printf("La hora introducida es: %02d:%02d:%02d", horas, minutos, segundos);
-    }
+   }
 }
