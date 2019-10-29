@@ -6,10 +6,10 @@ public class Ejer3T4Reales{
 
         String s = "";
         
-        for(int i = 1; 1 <= 9; i++){
+        for(int i = 1; i <= 9; i++){
 
-            s = s + 1;
-            System.out.printf("%9s", s);
+            s = s + i;
+            System.out.printf("%9s\n", s);
         }
     }
 }
