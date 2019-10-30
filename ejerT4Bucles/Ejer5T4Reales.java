@@ -9,9 +9,9 @@ public class Ejer5T4Reales{
     
     
         for(int i = 1; i <= 9; i++){
-                s = s + i;
-                System.out.printf("\u001B["+color+"m%9s\n",s);
-                color++;
+            s = s + i;
+            System.out.printf("\u001B["+color+"m%9s\n",s);
+            color++;
         }
     }
 }
