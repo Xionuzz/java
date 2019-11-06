@@ -38,23 +38,41 @@ public class Ejer9T4Reales{
             validado = mes > 0 && mes <= 12;
         } while (!validado);
 
-        System.out.print("Año: ");
-        año = scan.nextInt();
+        do {
+            System.out.print("Año: ");
+            año = scan.nextInt();
+            validado = año > 0 && año <= 9999;
+        } while (!validado);
 
-        System.out.print("Hora: ");
-        hora = scan.nextInt();
+        do {
+            System.out.print("Hora: ");
+            hora = scan.nextInt();
+            validado = hora >= 00 && hora <= 23;
+        } while (!validado);
 
-        System.out.print("Minutos: ");
-        minutos = scan.nextInt();
-        System.out.print("Segundos: ");
-        segundos = scan.nextInt();
+        do {
+            System.out.print("Minutos: ");
+            minutos = scan.nextInt();
+            validado = minutos >= 00 && minutos <= 59;
+        } while (!validado);
 
-        System.out.print("Velocidad del viento (en Km/h): ");
-        viento = scan.nextInt();
+        do {
+            System.out.print("Segundos: ");
+            segundos = scan.nextInt();
+            validado = segundos >= 00 && segundos <= 59;
+        } while (!validado);
 
-        
+        do {
+            System.out.print("Velocidad del viento (en Km/h): ");
+            viento = scan.nextInt();
+            validado = viento >= 0 && viento <= 2000;
+        } while (!validado);
 
-
+        do {
+            System.out.print("Temperatura (en °C): ");
+            temperatura = scan.nextInt();
+            validado = temperatura >= (-50) && temperatura <= 200;
+        } while (!validado);
 
         
 
