@@ -8,10 +8,10 @@ public class Calculadora {
 
         // Declaradas las variables.
 
-        int numeroIntroducido = 0;
-        int primerNumero = 0;
-        int segundoNumero = 0;
-        int resultado = 0;
+        float numeroIntroducido = 0f;
+        float primerNumero = 0f;
+        float segundoNumero = 0f;
+        float resultado = 0f;
         boolean bucleCalculadora = true;
         String pulsarEnter;
 
